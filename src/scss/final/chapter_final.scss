@@ -1,0 +1,91 @@
+.chapter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+    width: 70vw;
+    height: 70vh;
+    overflow: auto;
+    z-index: 5;
+    background-color: rgba(245, 245, 245, .7);
+    animation: chapta .7s ease-in forwards;
+}
+
+.back-btn {
+    position: fixed;
+    top: 2vh;
+    left: 3vw;
+    @include basic-btn;
+    background: $lila;
+    letter-spacing: 1.2px;
+}
+
+//link to the empik site
+.buy-btn {
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    // @include basic-btn;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.buy-btn::before {
+    content: attr(data-hover);
+    transform: translate(150%, 0);
+    opacity: 0;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: white;
+    transition: 0.4s;
+    position: absolute;
+}
+
+.buy-btn:hover::before {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.buy-btn span {
+    color: white;
+    font-size: 25px;
+    transform: translate(0,0);
+    transition: 0.2s;
+}
+.buy-btn:hover span {
+    opacity: 0;
+    transform: translate(-150%,0);
+}
+
+//chapter text
+.paragraph {
+    padding-top: 1vh;
+    padding-right: 2vw;
+    font-size: 15px;
+    line-height: 20px;
+}
+.paragraph:last-child {
+    padding-bottom: 2vh;
+}
+.par1 {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px 0 1vh;
+}
+.par2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2vh 0;
+}
+
+@keyframes chapta {
+    0% { opacity: 0; }
+    100% { opacity: 1}
+}

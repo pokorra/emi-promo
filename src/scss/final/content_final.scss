@@ -1,0 +1,53 @@
+
+.final {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    // background-image: url(../img/ftl_s.png);
+    display: flex;
+    justify-content: center;    
+}
+
+.final-text-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 7vh;
+    height: 50vh;
+    z-index: 3;
+}
+
+.final-title {
+    width: 50%;
+}
+.final-score,
+.final-text {
+    text-align: center;
+    width: 90%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.final-btn {
+    @include basic-btn;
+    background-color: $lila;
+    letter-spacing: 1px;
+}
+.bottom-pic {
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+}
+.pic-loose {
+    // background-image: url(../img/ftl_pic_s.png);
+    width: 270px;
+    height: 215px;
+}
+.pic-win {
+    // background-image: url(../img/ftw_pic_s.png);
+    width: 100%;
+    min-height: 210px;
+    background-size: cover;
+    align-self: center;
+}

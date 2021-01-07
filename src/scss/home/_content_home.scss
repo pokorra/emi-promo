@@ -1,0 +1,42 @@
+.main-content {
+    position: absolute;
+    margin: 5vh 18vw;
+    height: 90vh;
+    width: 64vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 3;
+}
+
+.wilga-logo {
+    width: 20vw;
+    max-width: 75px;
+}
+
+.book-title {
+    width: 50vw;
+    max-width: 200px;
+    margin: 10px 0;
+}
+
+.start-premiere {
+    font-weight: 500;
+    color: $lila;
+    width: 65vw;
+}
+
+.text {
+    font-size: 13px;
+    line-height: 16px;
+    width: 50vw;
+    text-align: center;
+}
+
+.buttons {
+    @include basic-btn;
+    min-width: 200px;
+    font-size: 14px;
+    background-color: $lila;
+}

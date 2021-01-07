@@ -1,0 +1,74 @@
+@media only screen and (min-width: 750px ) {
+    // .final-text-elements {
+        // border: 2px dotted maroon;
+        // width: 60vw;
+    // }
+    .final-title {
+        width: 360px;
+    }
+    .final-score,
+    .final-text {
+        font-size: 17px;
+        width: 50vw;
+        padding: 0 5px;
+    }
+    .final-btn {
+        font-size: 17px;
+        letter-spacing: 1.2px;
+    }
+    .pic-loose {
+        // background-image: url(../img/ftl_pic_m.png);
+        width: 610px;
+        height: 512px;
+    }
+    .pic-win {
+        // background-image: url(../img/ftw_pic_m.png);
+        width: 100%;
+        height: 454px;        
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    .final {
+        // background-image: url(../img/ftl_l.png);
+    }
+    .final-text-elements {
+        margin: 2vh;        
+        width: 450px;
+    }
+    .final-text {
+        width: inherit;
+    }
+    .final-title {
+        width: 305px;
+    }
+    .pic-loose {
+        // background-image: url(../img/ftl_pic_l.png);
+        width: 458px;
+        height: 397px;
+    }
+    .pic-win {
+        // background-image: url(../img/ftw_pic_m.png);
+        width: 869px;
+        height: 418px;        
+    }
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .final-text-elements {
+        margin: 5vh;        
+        width: 50vw;
+    }
+    .final-title {
+        width: 35vh;
+    }
+    .final-score,
+    .final-text,
+    .final-btn {
+        font-size: 22px;
+    }
+}
+
+

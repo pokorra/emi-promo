@@ -1,0 +1,36 @@
+//basic general settings - font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+
+$font: 'Roboto', sans-serif;
+
+// defining colors
+$lila: #E2007A;
+$green: rgb(35, 166, 56);
+$background-color: #ABDDF5;
+
+
+//basic settings
+* {
+    padding: 5px;
+    margin: 5px;
+    transition: .4s;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+}
+
+.hidden {
+    display: none;
+}
+
+//mixins
+@mixin basic-btn {
+    padding: 15px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
