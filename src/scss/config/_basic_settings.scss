@@ -28,9 +28,9 @@ body {
 //mixins
 @mixin basic-btn {
     padding: 15px 20px;
+    text-align:center;
     color: white;
-    text-transform: uppercase;
     font-weight: bold;
-    border-radius: 25px;
+    text-transform: uppercase;
     cursor: pointer;
 }
