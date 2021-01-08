@@ -20,8 +20,8 @@
     }
     .butt {
         @include basic-btn;
-        font-weight: 600;
-        background-color: $green;
+        border-radius: 35px;
+        padding: 20px 25px;
     }
 }
 

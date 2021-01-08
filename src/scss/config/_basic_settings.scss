@@ -19,6 +19,9 @@ $white: rgb(245, 245, 245);
     font-family: $font;    
 }
 
+button {
+    font-family: $font;
+}
 
 .hidden {
     display: none;
@@ -29,7 +32,15 @@ $white: rgb(245, 245, 245);
     padding: 15px 20px;
     text-align:center;
     color: $white;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase;
+    background-color: $side-pink;
     cursor: pointer;
+}
+
+@mixin centerflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

@@ -52,7 +52,7 @@ ul.quiz-buttons {
     width: 80%;
     margin: 5px 0;
     padding: 5px 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     transition: .5s;
     opacity: 0;
     animation: newbutt .7s ease-in forwards;
@@ -81,9 +81,6 @@ ul.quiz-buttons {
     background-color: $green;
 }
 
-.hov {
-    background-color: #49155C;
-}
 
 @keyframes newbutt {
     0% { opacity: 0; }

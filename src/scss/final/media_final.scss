@@ -1,58 +1,81 @@
 @media only screen and (min-width: 750px ) {
-    // .final-text-elements {
-        // border: 2px dotted maroon;
-        // width: 60vw;
-    // }
+
+    .for-the-win::after {
+        width: 100vw;
+        height: 520px;
+        background-image: url(../img/Dzieci_TRUE_m.png);
+        background-size: cover;
+        bottom: 0;
+    }
+    .for-the-loose::after {
+        width: 400px;
+        height: 565px;
+        background-image: url(../img/Statuta_FALSE_m.png);
+    }
+    .final-wilga-logo {
+        margin-top: 3vh;
+        max-width: 100px;
+    }
+    .final-book-title {
+        height: 25vh;
+    }
     .final-title {
         width: 360px;
     }
     .final-score,
     .final-text {
-        font-size: 17px;
-        width: 50vw;
+        font-size: 2vh;
+        line-height: 2.8vh;
+        width: 45vw;
         padding: 0 5px;
     }
     .final-btn {
-        font-size: 17px;
-        letter-spacing: 1.2px;
+       font-size: 2vh;
+       margin-top: 1vh;
     }
-    .pic-loose {
-        // background-image: url(../img/ftl_pic_m.png);
-        width: 610px;
-        height: 512px;
+    .for-the-loose a {
+        margin-bottom: 35vh;
     }
-    .pic-win {
-        // background-image: url(../img/ftw_pic_m.png);
-        width: 100%;
-        height: 454px;        
+    .for-the-win .final-btn {
+        margin-bottom: 30vh;
     }
+
 }
 
 
 @media only screen and (min-width: 1100px) {
-    .final {
-        // background-image: url(../img/ftl_l.png);
+    .for-the-win {
+        width: 70vw;
+        max-width: 1100px;
+        margin: 0 auto;
     }
-    .final-text-elements {
-        margin: 2vh;        
-        width: 450px;
+    .for-the-win::after {
+        width: 1040px;
+        height: 530px;
+        background-image: url(../img/Dzieci_TRUE_l.png);
+        background-size: cover;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
+    .for-the-loose::after {
+        width: 465px;
+        height: 620px;
+        background-image: url(../img/Statuta_FALSE_l.png);
+        left: 10vw;
+    }
+    .final-score,
     .final-text {
-        width: inherit;
+        width: 20vw;
+        font-size: 2.3vh;
+        line-height: 3vh;
     }
-    .final-title {
-        width: 305px;
+    .for-the-loose a {
+        margin-bottom: 25vh;
     }
-    .pic-loose {
-        // background-image: url(../img/ftl_pic_l.png);
-        width: 458px;
-        height: 397px;
-    }
-    .pic-win {
-        // background-image: url(../img/ftw_pic_m.png);
-        width: 869px;
-        height: 418px;        
-    }
+
+    
+
 }
 
 

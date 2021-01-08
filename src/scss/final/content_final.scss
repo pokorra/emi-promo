@@ -1,50 +1,68 @@
-
 .final {
     width: 100vw;
     height: 100vh;
     position: relative;
-    display: flex;
-    justify-content: center;    
-}
-
-.final-text-elements {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include centerflex;
+    // justify-content: flex-start;;
     justify-content: space-around;
-    margin: 7vh;
-    height: 50vh;
     z-index: 3;
 }
 
-.final-title {
-    width: 50%;
+.for-the-win::after {
+    content: '';
+    position: absolute;
+    background-image: url(../img/Emi_TRUE_s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 150px;
+    bottom: 0;
+    left: 0;
 }
+
+.for-the-loose::after {
+    content: '';
+    position: absolute;
+    background-image: url(../img/Statuta_FALSE_s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 245px;
+    width: 175px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.final-wilga-logo {
+    width: 20vw;
+    max-width: 75px;
+    margin-top: 3vh;
+}
+.final-book-title {
+    height: 25vh;
+    margin: 10px 0;
+}
+
 .final-score,
 .final-text {
     text-align: center;
-    width: 90%;
-    font-size: 14px;
-    line-height: 20px;
+    width: 80%;
+    font-size: 2.3vh;
+    line-height: 2.8vh;
+    font-weight: 500;
+    
 }
-
 .final-btn {
     @include basic-btn;
-    background-color: $side-pink;
+    border-radius: 25px;
     letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 2.2vh;
 }
-.bottom-pic {
-    position: absolute;
-    bottom: 0;
-    background-size: cover;
+.for-the-win .final-btn {
+    margin-bottom: 210px;
 }
-.pic-loose {
-    width: 270px;
-    height: 215px;
-}
-.pic-win {
-    width: 100%;
-    min-height: 210px;
-    background-size: cover;
-    align-self: center;
+.for-the-loose a {
+    margin-bottom: 150px;
+    z-index: 3;
 }
