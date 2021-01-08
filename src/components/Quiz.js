@@ -6,6 +6,7 @@ import '../scss/question/main_question.scss';
 
 
 const Quiz = ({score, setScore, number, setNumber, isFinished, setFinished}) => {
+    console.log(score);
 
     return (
         <div className='quiz-container'>

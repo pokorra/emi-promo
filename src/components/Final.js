@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import Chapter from './Chapter';
 import {Link} from 'react-router-dom';
-import data from './data';
+import all from './data';
 // import mazurscy_logo from '../scss/img/mazurscy_logo.svg';
 import '../scss/final/main_final.scss';
 
 // const maz = mazurscy_logo;
 
 const Final =({score, setScore, setFinished}) => {
-    const finish = data.finish;
+    const finish = all[2];
 
     const [isChapter, setChapter] = useState(false);
     

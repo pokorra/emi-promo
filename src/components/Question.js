@@ -1,12 +1,14 @@
 import React from 'react';
-import data from './data';
+import all from './data';
+import emi_logo from '../scss/img/emi_logo.svg';
 // import mazurscy_logo from '../scss/img/mazurscy_logo.svg';
 
 
 // const maz = mazurscy_logo;
+const logo = emi_logo;
 
 const Question =({setScore, isFinished, setFinished, number, setNumber}) => {   
-        const quiz = data.quiz;
+        const quiz = all[0];
         const quest = quiz[number];
         const length = quiz.length;
 
@@ -48,7 +50,7 @@ const Question =({setScore, isFinished, setFinished, number, setNumber}) => {
                     ))}
                 </ul>
                 <div className='book-logo'>
-                  {/* <img src={maz} alt='book-title' className='img-title'></img> */}
+                  <img src={logo} alt='book-title' className='img-title'></img>
                 </div>
     
              </div>

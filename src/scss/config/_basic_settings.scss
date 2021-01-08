@@ -4,22 +4,21 @@
 $font: 'Roboto', sans-serif;
 
 // defining colors
-$lila: #E2007A;
+$side-pink: rgb(226, 0, 122);
 $green: rgb(35, 166, 56);
-$background-color: #ABDDF5;
+$background-blue: rgb(171, 221, 245);
+$blue-shadow: rgb(0, 159, 227);
+$black: rgb(20, 20, 20);
+$white: rgb(245, 245, 245);
 
 
 //basic settings
-* {
-    padding: 5px;
-    margin: 5px;
+:root {
     transition: .4s;
     box-sizing: border-box;
+    font-family: $font;    
 }
 
-body {
-    font-family: $font;
-}
 
 .hidden {
     display: none;
@@ -29,7 +28,7 @@ body {
 @mixin basic-btn {
     padding: 15px 20px;
     text-align:center;
-    color: white;
+    color: $white;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;

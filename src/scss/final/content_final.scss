@@ -3,7 +3,6 @@
     width: 100vw;
     height: 100vh;
     position: relative;
-    // background-image: url(../img/ftl_s.png);
     display: flex;
     justify-content: center;    
 }
@@ -31,7 +30,7 @@
 
 .final-btn {
     @include basic-btn;
-    background-color: $lila;
+    background-color: $side-pink;
     letter-spacing: 1px;
 }
 .bottom-pic {
@@ -40,12 +39,10 @@
     background-size: cover;
 }
 .pic-loose {
-    // background-image: url(../img/ftl_pic_s.png);
     width: 270px;
     height: 215px;
 }
 .pic-win {
-    // background-image: url(../img/ftw_pic_s.png);
     width: 100%;
     min-height: 210px;
     background-size: cover;

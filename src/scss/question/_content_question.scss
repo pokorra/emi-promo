@@ -1,39 +1,45 @@
 .quiz-container {
-    background-color: $lila;
-    color: white;
+    background-color: $background-blue;
     width: 100vw;
     height: 100vh;
+    z-index: 3;
 }
 
 .quiz {
     padding-left: 8vw;    
 }
 .quiz-number {
-    background-color: $green;
+    background-color: $side-pink;
+    color: $white;
     min-height: 80px;
-    height: 20vh;
+    height: 18vh;
     width: 45px;
     border-radius: 0 0 25px 25px;
     padding-bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
+    z-index: 3;
+
     p {
-        font-size: 20px;
+        font-size: 3vh;
+        font-weight: bold;
     }
 }
 .quiz-question {
     min-height: 18vh;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 3vh;
+    line-height: 4vh;
     font-weight: 500;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
 }
 
 ul.quiz-buttons {
-    padding: 5vh 0 10vh;
+    padding: 5vh 0 8vh;
+    color: $black;
     li {
         padding: 5px;
         span {
@@ -43,23 +49,31 @@ ul.quiz-buttons {
 }
 
 .quiz-btn {
-    width: 70%;
+    width: 80%;
     margin: 5px 0;
     padding: 5px 15px;
     border-radius: 15px;
     transition: .5s;
+    opacity: 0;
     animation: newbutt .7s ease-in forwards;
     cursor: pointer;
+    font-family: $font;
+    font-size: 2.3vh;
+    line-height: 2.8vh;
+    z-index: 3;
 }
 
+
 .book-logo {
-    border-top: 1px solid white;
+    border-top: 2px solid $black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     margin-right: 8vw;
     .img-title {
-        width: 70px;
-        margin: 5vh 10px;
+        width: 85%;
+        margin: 5vh auto 3vh;
+        z-index: 3;
     }
 }
 

@@ -169,4 +169,6 @@ const finish = [
         btn: "Przeczytaj rozdział"
     }
 ]
-export default {quiz, start, finish};
+
+const all = [quiz, start, finish];
+export default all;
