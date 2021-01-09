@@ -153,7 +153,7 @@ const quiz = [
 
 const start = {
     date: "Premiera: 27 stycznia 2021 r.",
-    inv: `Oho, wygląda na to, że to nie koniec przygód Emi i Tajnego Klubu Superdziewczyn w USA. Tym razem przyjaciele wybiorą się w podróż… do Nowego Jorku! Czy chcecie jako pierwsi dowiedzieć się, co spotka ich po drodze? Odpowiedzcie na pytania i odkryjcie pierwszy rozdział najnowszego tomu „Emi i Tajnego Klubu Superdziewczyn. Dookoła świata” pt. Nowy Jork!`,
+    inv: `Oho, wygląda na to, że to nie koniec przygód Emi i Tajnego Klubu Superdziewczyn w USA. Tym razem przyjaciele wybiorą się w podróż… do Nowego Jorku! Czy chcecie jako pierwsi dowiedzieć się, co spotka ich po drodze? Odpowiedzcie na pytania i odkryjcie pierwszy fragment najnowszego tomu „Emi i Tajnego Klubu Superdziewczyn. Dookoła świata” pt. Nowy Jork!`,
     btn: "Gotowi? do dzieła!"
 }
 
@@ -166,7 +166,7 @@ const finish = [
     {
         num: 2,
         display: "Gratulujemy! Zapraszamy do wspólnej podróży!" ,
-        btn: "Przeczytaj rozdział"
+        btn: "Przeczytaj fragment"
     }
 ]
 

@@ -1,120 +1,181 @@
 const book = [
     {
         num: 1,
-        content: 'Rozdział 1'
+        content: 'PRZYSZŁA JESIEŃ I ZATĘSKNIŁYŚMY ZA FRANKIEM'
     },
     {
         num: 2,
-        content: 'W którym docieramy do krainy tulipanów, bunia ma nowy plan, podziwiamy holenderskie ogródki, pojawiają się dwaj dziwni faceci i trzeba mieć oczy dookoła głowy.'
+        content: 'czyli rozstania są trudne, ale bywają też początkiem KOLEJNEJ WIELKIEJ PODRÓŻY!'
     },
     {
         num: 3,
-        content: 'Jak pewnie pamiętacie, moja babcia Henrysia uwielbia kwiaty i często przywozi z podróży nowe sadzonki. Ja też lubię hodować rośliny, dlatego naszą wakacyjną podróż postanowiliśmy zacząć od Holandii.'
+        content: 'Jesień to bardzo trudny okres dla Tajnego Klubu Superdziewczyn i Jednego Superchłopaka. Dni stają się coraz krótsze, na dworze jest coraz ciemniej i coraz gorzej jest znaleźć czas na tajne spotkania naszej paczki. W tym roku jest nam wyjątkowo ciężko, ponieważ nie ma z nami jednego z członków klubu. Franek od lata przebywa z tatą za oceanem, w słonecznej Kalifornii. Profesor Kaganek otrzymał specjalne stypendium naukowe i teraz przez co najmniej rok będą mieszkać w okolicach Los Angeles. Franek uczy się w kalifornijskiej szkole. Kiedy zaczyna lekcje, u nas jest szósta wieczorem i jemy kolację. Mamy jednak umowę, że co tydzień organizujemy tajne zdalne zloty naszej paczki. Technologia nas wspiera. Spotykamy się więc na odległość, wykorzystując różne komunikatory.'
     },
     {
         num: 4,
-        content: 'W krainie tulipanów mieliśmy spędzić zaledwie kilka dni i nic nie wskazywało, że w tym czasie zostaniemy wplątani w wir niesamowitych zdarzeń, zwłaszcza że pierwszy dzień naszej podróży minął zupełnie zwyczajnie.'
-    },
+        content: 'Właśnie dzisiaj przygotowujemy jedno z takich zdalnych spotkań. Franek nie ma lekcji i dzięki temu możemy się zobaczyć. Opowie nam o swoich planach na przerwę zimową, która zbliża się wielkimi krokami. Zaczniemy też burzę mózgów dotyczącą tego, w jaki sposób połączyć zimowe plany Franka za oceanem z resztą zamierzeń Tajnego Klubu Superdziewczyn. A ja mam nadzieję, że podczas tego spotkania, które odbędzie się u Flory, będziemy mogły wejść do naszej tajnej bazy mieszczącej się na strychu nad jej pokojem. Pan Zwiędły, tata Flo, zainstalował tam kiedyś specjalne schody, które uruchamia się za pomocą przycisku. Dzięki temu urządziliśmy na strychu tajną bazę. Tajną bazę numer dwa. Tajna baza numer jeden mieści się w moim pokoju pod stołem, w bloku przy ulicy Na Bateryjce 2, gdzie mieszkam z mamą Justyną i tatą Kubą, a czasem też z psem cioci Julii – Czekoladą.'
+        },
     {
         num: 5,
-        content: 'Po wielu godzinach jazdy zatrzymaliśmy się na dłuższy postój niedaleko Apeldoorn. Znajduje się tam pałac Het Loo – okazały budynek, w którym rezydowała rodzina królewska.'
-    },
+        content: 'Kiedy zebrałyśmy się u Flo, okazało się, że mamy cały dom dla siebie. Rodzice Flory, mimo że był już wieczór, a do tego jesienny, spędzali czas na porządkowaniu ogrodu. Ogród to ostatnio ich hobby. Postanowiliśmy więc… Nie! Postanowiłyśmy! Muszę pamiętać, aby stosować odpowiednią formę w naszych wypowiedziach, przecież Franek jest tysiące kilometrów stąd i jesteśmy teraz w dziewczyńskim gronie. Postanowiłyśmy się skupić wyłącznie na zdalnej rozmowie z Frankiem.'
+        },
     {
         num: 6,
-        content: 'Obecnie mieści się w nim muzeum, w którym można obejrzeć między innymi oryginalne pałacowe wyposażenie.'
-    },
+        content: 'Po kilku próbach wreszcie udało się nam połączyć i Franek pojawił się na ekranie laptopa Flory. Pomachał do nas wesoło z drugiej strony ekranu i zza oceanu.'
+        },
+    {
+        num: 7,
+        content: '– Cześć, Franek! – wykrzyknęłyśmy na cały głos. – Jak się masz? Co u ciebie słychać?'
+        },
     {
         num: 8,
-        content: 'Dziewczyny długo podziwiały meble, obrazy, eleganckie stroje i chińską porcelanę. Mnie za to najbardziej podobały się pojazdy używane przez rodzinę królewską: luksusowe zabytkowe auta, karety i sanie stojące w garażu i powozowni.'
-    },
+        content: 'Franek popatrzył na nas wszystkie i powiedział po prostu:'
+        },
+    {
+        num: 9,
+        content: '– Bardzo się za wami stęskniłem! Nawet nie macie pojęcia, jak bardzo!'
+        },
     {
         num: 10,
-        content: 'Ale to, co przede wszystkim przyciągnęło nas do Het Loo, to słynne barokowe ogrody. Jest w nich mnóstwo kolorowych kwiatów i starannie utrzymane żywopłoty oraz piękne fontanny, wazony i rzeźby. Do ogrodów przylega rozległy park, pełen romantycznych altanek i tajemniczych zakamarków. Po długiej jeździe autem wreszcie znalazłem miejsce, w którym mogłem się wybiegać.'
-    },
+        content: '– Chciałabym się z tobą zobaczyć na żywo! – pisnęła Aniela.'
+        },
     {
         num: 11,
-        content: '– Przysiądźmy tutaj na chwilę – zaproponowała bunia, gdy znaleźliśmy się przy romantycznej altance ozdobionej bujnie kwitnącymi fuksjami.'
-    },
+        content: '– I ja!!! – wyrwało się nam wszystkim z gardeł.'
+        },
     {
         num: 12,
-        content: 'Byliśmy już trochę zmęczeni, więc chętnie przystaliśmy na ten pomysł. Z altanki roztaczał się ładny widok na jezioro, po którym pływały kaczki.'
-    },
+        content: 'Franek ułożył dłonie w kształt serca, a ja poczułam, że bardzo się wzruszyłam. Ale nie wolno nam było płakać! W końcu my, dziewczyny z Tajnego Klubu Superdziewczyn, powinnyśmy być dzielne. Byłyśmy w znacznie lepszej sytuacji niż Franek. Chodziłyśmy do tej samej szkoły i spędzałyśmy razem wolne chwile, a nasi rodzice, a przynajmniej Flory i moi, wręcz się przyjaźnili.'
+        },
     {
         num: 13,
-        content: 'Gdy już nieco odpoczęliśmy, wróciliśmy na teren ogrodów, a tam w letniej kawiarence zamówiliśmy lody. Potem zaczęło zbierać się na burzę, więc mama zdecydowała, że czas ruszać dalej, żebyśmy zdążyli dotrzeć do hotelu przed zmierzchem.'
-    },
+        content: 'Jako szefowa Tajnego Klubu Superdziewczyn nie mogłam dopuścić, abyśmy popadli w nastrój rezygnacji i przygnębienia!'
+        },
     {
         num: 14,
-        content: 'Późnym popołudniem dotarliśmy do Amersfoort. To spore miasto niedaleko Amsterdamu. Zameldowaliśmy się w hotelu, trochę odpoczęliśmy, a potem wyszliśmy na wieczorny spacer. Od razu zauważyłem, że Holendrzy lubią zieleń. Nawet najmniejsze balkony ozdabiają kwiatowymi kompozycjami.'
-    },
+        content: '– Ej! Przestańcie! Bez mazania się! Ostatni raz widzieliśmy się wcale nie tak dawno! Nasza wspólna wyprawa za ocean, do Kalifornii, zakończyła się zaledwie pięć miesięcy temu! – przypomniałam.'
+        },
     {
         num: 15,
-        content: 'Rozglądałem się i podziwiałem te miniaturowe ogródki, ale jednocześnie musiałem uważać na rowerzystów. Było ich naprawdę wielu!'
-    },
+        content: '– A mnie się wydaje, że znacznie, znacznie dawniej. Lata świetlne temu – westchnął Franek.'
+        },
     {
         num: 16,
-        content: '– Trzeba mieć oczy dookoła głowy! – powiedziała bunia, po czym na moment się zagapiła i omal nie została staranowana, gdy nieopatrznie stanęła na środku ścieżki rowerowej.'
-    },
+        content: 'Na szczęście w czasie rozmowy wróciły nasze najfajniejsze wspomnienia z wyprawy.'
+        },
     {
         num: 17,
-        content: 'Na ścieżce pierwszeństwo zawsze ma rowerzysta! Trzeba o tym pamiętać, zwłaszcza gdy jeździ się po holenderskich miastach samochodem. Jeśli ktoś nie jest przyzwyczajony do tak dużej liczby rowerów na drodze, może spowodować kolizję. Dlatego postanowiliśmy zwiedzać miasto na piechotę. Zresztą tak było o wiele przyjemniej.'
-    },
+        content: '– Pamiętacie, jak o mały włos na kempingu napadłby nas niedźwiedź*? – zawołała Flora.'
+        },
     {
         num: 18,
-        content: 'Gdy szliśmy do historycznej części miasta, w pewnej chwili zza zakrętu wyjechała grupa kobiet na skuterach. Wszystkie były mniej więcej w wieku buni i przejeżdżając pod wiaduktem, piszczały: „Jupiii!”, a echo niosło ich radosne głosy. Wszystkie wyglądały na szczęśliwe i wyluzowane.'
-    },
+        content: '– To dopiero była przygoda! – potwierdził Franek.'
+        }, 
     {
         num: 19,
-        content: 'Bunia od razu pozazdrościła im tej swobody i zaraz po przyjeździe do Polski postanowiła założyć dla swoich koleżanek Klub Buń. Zaczęła też marzyć o różowym skuterze z szybką z przodu.'
-    },
+        content: '– A ja uważam, że największym przeżyciem było trzęsienie ziemi! – stwierdziła Aniela.'
+        },
     {
         num: 20,
-        content: '– Babciu, a co będziecie robić w tym klubie? – zaciekawiłem się, gdy podzieliła się z nami swoim pomysłem.'
-    }, 
+        content: '– To też było niesamowite – zgodził się chłopiec. – Moje pierwsze trzęsienie ziemi i od razu o największej magnitudzie*! Kiedy wy byłyście już na lotnisku, ja ciągle jeszcze czułem wstrząsy w domu.'
+        },
     {
         num: 21,
-        content: '– Jeszcze nie wiem, ale na pewno wymyślę coś odjazdowego! – oznajmiła czupurnie.'
-    },
+        content: '– To były pierwszorzędne przygody! – oznajmiła Flora. – Ale patrzmy w przyszłość! Jestem gotowa na coś nowego. Coś, co wydarzy się być może podczas najbliższej przerwy zimowej!'
+       },
     {
         num: 22,
-        content: 'Domyślałem się, że nie poprzestanie na samym pomyśle i niebawem wcieli go w życie.'
-    },
+        content: '– Przyjedź do nas! – niespodziewanie zaproponowała Faustyna. – Zaraz po świętach będziesz miał kilka dni wolnego. Pojedziemy na narty!'
+        },
     {
         num: 23,
-        content: 'Tymczasem doszliśmy do najstarszej części miasta. Zachowały się tam fragmenty murów miejskich z XIII wieku, stare budynki kościelne i klasztorne, a także bramy miejskie.'
-    },
+        content: 'Chłopiec westchnął głęboko i po chwili wahania odpowiedział:'
+        },
     {
         num: 24,
-        content: 'Przyjemnie spacerowało się po wąskich uliczkach poprzecinanych kanałami, nad którymi wznosiły się jedno- lub dwupiętrowe domy. O tej porze nie było tu zbyt wielu turystów i spokojnie mogłem przyglądać się pięknie utrzymanym mikroskopijnym ogródkom. Niemal przed każdym domem znajdowało się mnóstwo zieleni ozdobionej ładnymi dekoracjami i pnącymi różami.'
-    },
+        content: '– To się nie uda. Podczas przerwy świątecznej moja szkoła bierze udział w Science Winter School*. To są specjalne zajęcia z matematyki i fizyki dla najzdolniejszych uczniów. Nie mogę opuścić tego kursu.'
+        },
     {
         num: 25,
-        content: 'Może kiedyś w naszych miastach i miasteczkach też zapanuje moda na takie kwietne dekoracje. Mam nadzieję, bo zauważyłem, że wystarczą dwie donice z kwiatami, a świat od razu wygląda piękniej!'
-    },
+        content: '– Więc w Ameryce też jesteś prymusem? – skrzywiła się Flora z niesmakiem, aż musiałam ją lekko uszczypnąć, żeby nie dogryzała Frankowi w ten sposób.'
+        },
     {
         num: 26,
-        content: 'Wędrując nieśpiesznym krokiem, dotarliśmy w końcu do wizytówki Amersfoort, którą jest Koppelpoort – jedna z trzech zabytkowych bram miejskich. Ustawiliśmy się przed nią i poprosiliśmy przechodnia o zrobienie zdjęcia.'
-    },
+        content: '– Dostałem się do zespołu matematyków i przygotowuję się teraz do międzystanowej olimpiady matematycznej dla juniorów – powiedział chłopiec.'
+        },
     {
         num: 27,
-        content: 'W pewnym momencie zobaczyłem dwóch mężczyzn, którzy dość nietypowo ze sobą rozmawiali. Jeden był raczej niski, a drugi wysoki i nosił duży złoty zegarek na przegubie dłoni. Stali obok siebie, ale zachowywali się, jakby się nie znali, a potem szybko wymienili parę zdań jak w filmach sensacyjnych o agentach, a kiedy zaczęliśmy się do nich zbliżać, odeszli. Zaintrygowany ich zachowaniem, chyba zbyt intensywnie się w nich wpatrywałem, bo ten niższy rzucił mi krótkie, przenikliwe spojrzenie.'
-    },
+        content: '– To świetnie! – ucieszyłam się. – Ja też będę brała udział w kilku konkursach matematycznych.'
+        },
     {
         num: 28,
-        content: 'Szybko odwróciłem wzrok i schowałem się za bunią. Gdy odważyłem się znowu spojrzeć w ich stronę, mężczyźni już odeszli i choć się rozglądałem, żadnego nie dostrzegłem.'
-    },
+        content: '– Emi! – obruszyła się Flora. – Przecież do rekrutacji zostało jeszcze kilka lat!'
+        },
     {
         num: 29,
-        content: 'Po zwiedzaniu poszliśmy do restauracji na kolację, a potem wróciliśmy do hotelu. Następnego dnia musiałem wcześnie wstać, bo wybieraliśmy się na wycieczkę pociągiem do Amsterdamu.'
-    },
+        content: '– Lubię być dobrze przygotowana – odparłam. – Nie chcę, aby cokolwiek mnie zaskoczyło.'
+        },
     {
         num: 30,
-        content: '– Pierwszy dzień wycieczki uważam za udany! – oświadczyła Marcela, gdy kładła się do łóżka.'
-    },
+        content: 'Potem jeszcze długo rozmawiałyśmy z Frankiem. Stało się jasne, że nie będzie mógł spędzić z nami zimowej przerwy świątecznej.'
+        },
     {
         num: 31,
-        content: 'Chciałem jej opowiedzieć o podejrzanych facetach, których widziałem przy zabytkowej bramie, ale poczułem się bardzo senny i postanowiłem zrobić to rano.'
-    }
+        content: '– W takim razie ferie świąteczne Tajnego Klubu Superdziewczyn musimy zaplanować osobno – stwierdziłam z przykrością.'
+        },
+    {
+        num: 32,
+        content: '– Mam pomysł! – wykrzyknęła Faustyna. – Co powiecie na zdalne ferie? Zorganizujemy sobie zajęcia tutaj, na miejscu, a po południu będziemy mogły porozmawiać z Frankiem, który połączy się z nami zza oceanu za pomocą komunikatora.'
+        },
+    {
+        num: 33,
+        content: '– Mega! – przytaknęłam, bo bardzo mi się spodobała ta koncepcja. To było idealne wyjście z sytuacji. Franek miał jednak całkiem inne zdanie na ten temat. Okazało się, że będzie bardzo zajęty przez wiele godzin każdego dnia. Codziennie powinien poświęcić co najmniej sześć godzin na samodzielne rozwiązywanie zadań matematycznych, a potem będzie czekała go jeszcze praca w zespole.'
+        },
+    {
+        num: 31,
+        content: '– Ale was cisną w tej Ameryce – stwierdziła Flora. – Na filmach wygląda to zupełnie inaczej, jakbyście ciągle mieli luz.'
+        },
+    {
+        num: 34,
+        content: 'Nagle na ekranie laptopa pojawił się dawno niewidziany profesor Kaganek.'
+        },
+    {
+        num: 35,
+        content: '– Hej! Fajnie was znów zobaczyć, Tajny Klubie Superdziewczyn… i Jednego Superchłopaka! – przywitał się i poklepał Franka radośnie w ramię. – Sto lat się nie widzieliśmy!'
+        },
+    {
+        num: 36,
+        content: '– Jasne – mruknął z przekąsem Franek. – My to chyba z godzinę…'
+        },
+    {
+        num: 37,
+        content: '– Stęskniłem się za wami, dziewczyny! No i jestem ciekaw waszych nowych misji! – oznajmił pan Kaganek.'
+        },
+    {
+        num: 38,
+        content: '– Tato, nie chcę cię wypraszać, ale właśnie trwa spotkanie Tajnego Klubu Superdziewczyn i Jednego Superchłopaka. Zaproszeni są tylko członkowie klubu! – Franek postanowił zdecydowanie pożegnać swojego tatę.'
+        },
+    {
+        num: 39,
+        content: '– Dajcie mi jeszcze chwilkę! – poprosił pan Kaganek. – Mam wam coś ważnego do przekazania!'
+        },
+    {
+        num: 40,
+        content: 'Nadstawiliśmy uszu, ciekawi, o co chodzi, a ja postanowiłam wykorzystać obecność profesora, żeby ostatecznie wyjaśnić sytuację nadchodzących świąt i naszego spotkania…'
+        },
+    {
+        num: 41,
+        content: '* Przygoda z niedźwiedziem – w tomie Emi i Tajny Klub Superdziewczyn. Dookoła świata: Kalifornia przyjaciele odwiedzają Park Narodowy Yosemite w stanie Kalifornia.'
+        },
+    {
+        num: 42,
+        content: '* Magnituda – wielkość trzęsień ziemi mierzy się na podstawie magnitudy, czyli w uproszczeniu przyspieszenia drgań gruntu podczas wstrząsów. Pojęcie to zdefiniował Charles F. Richter i ułożył skalę, zgodnie z którą można było mierzyć intensywność trzęsień ziemi w Kalifornii. Potem przyjęło się używać skali Richtera do określania siły wstrząsów, co nie jest do końca poprawne, ponieważ cechą wstrząsów nie jest siła, ale właśnie magnituda.'
+        },
+    {
+        num: 43,
+        content: '* Science Winter School – Franek posłużył się angielskim odpowiednikiem Zimowej Szkoły Naukowej.'
+        }
+
 ];
 
 

@@ -21,7 +21,6 @@
     align-items: flex-end;
     position: relative;
     z-index: 3;
-
     p {
         font-size: 3vh;
         font-weight: bold;
@@ -35,6 +34,8 @@
     display: flex;
     align-items: center;
     width: 80%;
+    position: relative;
+    z-index: 3;
 }
 
 ul.quiz-buttons {
@@ -52,7 +53,7 @@ ul.quiz-buttons {
     width: 80%;
     margin: 5px 0;
     padding: 5px 15px;
-    border-radius: 20px;
+    border-radius: 25px;
     transition: .5s;
     opacity: 0;
     animation: newbutt .7s ease-in forwards;
@@ -60,6 +61,7 @@ ul.quiz-buttons {
     font-family: $font;
     font-size: 2.3vh;
     line-height: 2.8vh;
+    position: relative;
     z-index: 3;
 }
 
@@ -77,9 +79,6 @@ ul.quiz-buttons {
     }
 }
 
-.right {
-    background-color: $green;
-}
 
 
 @keyframes newbutt {

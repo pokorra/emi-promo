@@ -6,7 +6,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 
 const Chapter = ({isChapter, setChapter, setFinished, setScore}) => {
-    const empik = 'https://www.empik.com/diamentowa-goraczka-mazurscy-w-podrozy-tom-4-stelmaszczyk-agnieszka,p1251018794,ksiazka-p';
+    const empik = 'https://www.empik.com/emi-i-tajny-klub-superdziewczyn-dookola-swiata-nowy-jork-mielech-agnieszka,p1258369891,ksiazka-p';
     const toFinal = () => {
         setChapter(false);
         setFinished(false);
@@ -21,7 +21,7 @@ const Chapter = ({isChapter, setChapter, setFinished, setScore}) => {
                 </button>
             </a> 
             {book.map(item => (
-                <p key={item.num} className={`paragraph par${item.num}`}> {item.content} </p>
+                <p key={item.num} className={'paragraph'}> {item.content} </p>
             ))}
         </div>
     )

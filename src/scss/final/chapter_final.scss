@@ -1,12 +1,12 @@
 .chapter {
     display: flex;
     flex-direction: column;
-    margin-top: 12vh;
-    width: 70vw;
-    height: 70vh;
+    margin-top: 3vh;
+    width: 80vw;
+    height: 80vh;
     overflow: auto;
     z-index: 5;
-    background-color: rgba(245, 245, 245, .7);
+    background-image: linear-gradient(rgba(245, 245, 245, .3), rgba(245, 245, 245, .9));
     animation: chapta .7s ease-in forwards;
 }
 
@@ -15,8 +15,11 @@
     top: 2vh;
     left: 3vw;
     @include basic-btn;
-    background: $side-pink;
+    font-size: 2.3vh;
+    border-radius: 25px;
     letter-spacing: 1.2px;
+    transition: .2s;
+    
 }
 
 //link to the empik site
@@ -67,22 +70,33 @@
 .paragraph {
     padding-top: 1vh;
     padding-right: 2vw;
-    font-size: 15px;
-    line-height: 20px;
+    padding: 1vh 2vw 1vh;
+    font-size: 2.5vh;
+    line-height: 3vh;
+    font-weight: 400;
+}
+
+.paragraph:first-of-type {
+    font-weight: 600;
+    font-size: 3.2vh;
+    line-height: 3.6vh;
+    padding-top: 15px;
+}
+
+.paragraph:nth-of-type(2) {
+    font-size: 2.8vh;
+    font-weight: 500;
+}
+
+.paragraph:last-child,
+.paragraph:nth-last-child(2),
+.paragraph:nth-last-child(3) {
+    font-style: italic;
+    font-size: 2vh;
+    line-height: 2.5vh;;
 }
 .paragraph:last-child {
     padding-bottom: 2vh;
-}
-.par1 {
-    font-weight: bold;
-    font-size: 17px;
-    padding: 15px 0 1vh;
-}
-.par2 {
-    font-size: 16px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 2vh 0;
 }
 
 @keyframes chapta {
