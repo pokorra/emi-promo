@@ -11,7 +11,7 @@ function App() {
   const [score, setScore] = useState(0);
   const [number, setNumber] = useState(0);
   const [isFinished, setFinished] = useState(false);
-  const [snowflake, setSnowflake] = useState(20);
+  const [snowflake, setSnowflake] = useState(60);
   
   return (
   <>
