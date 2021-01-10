@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 
-const Chapter = ({isChapter, setChapter, setFinished, setScore}) => {
+const Chapter = ({isChapter, setChapter, setFinished, setScore }) => {
     const empik = 'https://www.empik.com/emi-i-tajny-klub-superdziewczyn-dookola-swiata-nowy-jork-mielech-agnieszka,p1258369891,ksiazka-p';
     const toFinal = () => {
         setChapter(false);

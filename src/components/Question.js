@@ -2,12 +2,13 @@ import React from 'react';
 import all from './data';
 import emi_logo from '../scss/img/emi_logo.svg';
 // import mazurscy_logo from '../scss/img/mazurscy_logo.svg';
+import Snow from './Snow';
 
 
 // const maz = mazurscy_logo;
 const logo = emi_logo;
 
-const Question =({setScore, isFinished, setFinished, number, setNumber}) => {   
+const Question =({setScore, isFinished, setFinished, number, setNumber, snowflake, setSnowflake}) => {   
         const quiz = all[0];
         const quest = quiz[number];
         const length = quiz.length;
@@ -34,6 +35,7 @@ const Question =({setScore, isFinished, setFinished, number, setNumber}) => {
         
         return (
             <div className={`quiz ${isFinished ? 'hidden' : ''}`}>
+              <Snow snowflake={snowflake} setSnowflake={setSnowflake}/>
                 <div className='quiz-number'>
                   <p> {quest.num} </p>
                 </div>

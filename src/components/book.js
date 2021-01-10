@@ -132,47 +132,47 @@ const book = [
         content: '– Mega! – przytaknęłam, bo bardzo mi się spodobała ta koncepcja. To było idealne wyjście z sytuacji. Franek miał jednak całkiem inne zdanie na ten temat. Okazało się, że będzie bardzo zajęty przez wiele godzin każdego dnia. Codziennie powinien poświęcić co najmniej sześć godzin na samodzielne rozwiązywanie zadań matematycznych, a potem będzie czekała go jeszcze praca w zespole.'
         },
     {
-        num: 31,
+        num: 34,
         content: '– Ale was cisną w tej Ameryce – stwierdziła Flora. – Na filmach wygląda to zupełnie inaczej, jakbyście ciągle mieli luz.'
         },
     {
-        num: 34,
+        num: 35,
         content: 'Nagle na ekranie laptopa pojawił się dawno niewidziany profesor Kaganek.'
         },
     {
-        num: 35,
+        num: 36,
         content: '– Hej! Fajnie was znów zobaczyć, Tajny Klubie Superdziewczyn… i Jednego Superchłopaka! – przywitał się i poklepał Franka radośnie w ramię. – Sto lat się nie widzieliśmy!'
         },
     {
-        num: 36,
+        num: 37,
         content: '– Jasne – mruknął z przekąsem Franek. – My to chyba z godzinę…'
         },
     {
-        num: 37,
+        num: 38,
         content: '– Stęskniłem się za wami, dziewczyny! No i jestem ciekaw waszych nowych misji! – oznajmił pan Kaganek.'
         },
     {
-        num: 38,
+        num: 39,
         content: '– Tato, nie chcę cię wypraszać, ale właśnie trwa spotkanie Tajnego Klubu Superdziewczyn i Jednego Superchłopaka. Zaproszeni są tylko członkowie klubu! – Franek postanowił zdecydowanie pożegnać swojego tatę.'
         },
     {
-        num: 39,
+        num: 40,
         content: '– Dajcie mi jeszcze chwilkę! – poprosił pan Kaganek. – Mam wam coś ważnego do przekazania!'
         },
     {
-        num: 40,
+        num: 41,
         content: 'Nadstawiliśmy uszu, ciekawi, o co chodzi, a ja postanowiłam wykorzystać obecność profesora, żeby ostatecznie wyjaśnić sytuację nadchodzących świąt i naszego spotkania…'
         },
     {
-        num: 41,
+        num: 42,
         content: '* Przygoda z niedźwiedziem – w tomie Emi i Tajny Klub Superdziewczyn. Dookoła świata: Kalifornia przyjaciele odwiedzają Park Narodowy Yosemite w stanie Kalifornia.'
         },
     {
-        num: 42,
+        num: 43,
         content: '* Magnituda – wielkość trzęsień ziemi mierzy się na podstawie magnitudy, czyli w uproszczeniu przyspieszenia drgań gruntu podczas wstrząsów. Pojęcie to zdefiniował Charles F. Richter i ułożył skalę, zgodnie z którą można było mierzyć intensywność trzęsień ziemi w Kalifornii. Potem przyjęło się używać skali Richtera do określania siły wstrząsów, co nie jest do końca poprawne, ponieważ cechą wstrząsów nie jest siła, ale właśnie magnituda.'
         },
     {
-        num: 43,
+        num: 44,
         content: '* Science Winter School – Franek posłużył się angielskim odpowiednikiem Zimowej Szkoły Naukowej.'
         }
 

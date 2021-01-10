@@ -1,35 +1,40 @@
-import React, {useState} from 'react';
-import InputRange from 'react-input-range';
-import 'react-input-range/lib/css/index.css';
-import '../scss/config/_input_range.scss';
+import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+
 
 const Snow = ({snowflake, setSnowflake}) => {
+        
+    let stopSnowing;
+    let changeNumber;
 
-    
-    const value = snowflake;
-    
+    if (window.innerWidth > 1100) {
+        stopSnowing = 1800;
+        changeNumber = 250;
+      } else if (window.innerWidth > 750) {
+        stopSnowing = 1000;
+        changeNumber = 100;
+      } else {
+        stopSnowing = 500;
+        changeNumber = 70;
+      }
+
     const slower = () => {
         if (snowflake > 20) {
-            setSnowflake(prevState => prevState - 50);
-            console.log(snowflake);
-        } else {
-            console.log('nie ma co zabierać')
+            setSnowflake(prevState => prevState - changeNumber);
         }
     };
     const quicker = () => {
-        if (snowflake < 1000) {
-            setSnowflake(prevState => prevState + 50);
-            console.log(snowflake);
-        } else {
-            console.log('panie ten śnieg się już nie mieści')
-        }
+        if (snowflake < stopSnowing) {
+            setSnowflake(prevState => prevState + changeNumber);
+        } 
     }
 
     return (
     <div className='snow-regulator'>
-        <button className='snow-btn' onClick={slower} disabled={snowflake < 30}> - </button>
+        <button className='snow-btn' onClick={slower} disabled={snowflake < 30}> <span className='tooltip'>Mniej śniegu!</span> <FontAwesomeIcon icon = {faMinus}/> </button>
         <div className='snow-pic'></div>
-        <button className='snow-btn' onClick={quicker} disabled={snowflake > 1000}> + </button>
+        <button className='snow-btn' onClick={quicker} disabled={snowflake > stopSnowing}> <span className='tooltip'>Więcej śniegu!</span> <FontAwesomeIcon icon = {faPlus}/> </button>
     </div>
     )
 };
