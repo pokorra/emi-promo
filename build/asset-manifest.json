@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecc2a352.chunk.css",
+    "main.js": "/static/js/main.36e513a8.chunk.js",
+    "main.js.map": "/static/js/main.36e513a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb5e324b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb5e324b.js.map",
+    "static/js/2.65785294.chunk.js": "/static/js/2.65785294.chunk.js",
+    "static/js/2.65785294.chunk.js.map": "/static/js/2.65785294.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ecc2a352.chunk.css.map": "/static/css/main.ecc2a352.chunk.css.map",
+    "static/js/2.65785294.chunk.js.LICENSE.txt": "/static/js/2.65785294.chunk.js.LICENSE.txt",
+    "static/media/main_final.scss": "/static/media/Statuta_FALSE_s.2476d199.png",
+    "static/media/main_question.scss": "/static/media/Dzieci_m.32774be5.png",
+    "static/media/main_home.scss": "/static/media/Flora_s.2c0c0ec0.png",
+    "static/media/emi_logo.9cacc6ee.svg": "/static/media/emi_logo.9cacc6ee.svg",
+    "static/media/emi_logo_pion.632958fa.svg": "/static/media/emi_logo_pion.632958fa.svg",
+    "static/media/wilga_logo.392827c3.svg": "/static/media/wilga_logo.392827c3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb5e324b.js",
+    "static/js/2.65785294.chunk.js",
+    "static/css/main.ecc2a352.chunk.css",
+    "static/js/main.36e513a8.chunk.js"
+  ]
+}

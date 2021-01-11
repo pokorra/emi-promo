@@ -22,7 +22,6 @@ function App() {
   } else {
     startSnow = 60;
   }
-  console.log(startSnow);
   const [snowflake, setSnowflake] = useState(startSnow);
 
   return (
