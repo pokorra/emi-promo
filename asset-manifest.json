@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/emi-promo/static/css/main.0a8ef282.chunk.css",
-    "main.js": "/emi-promo/static/js/main.36e513a8.chunk.js",
-    "main.js.map": "/emi-promo/static/js/main.36e513a8.chunk.js.map",
+    "main.js": "/emi-promo/static/js/main.9f18458a.chunk.js",
+    "main.js.map": "/emi-promo/static/js/main.9f18458a.chunk.js.map",
     "runtime-main.js": "/emi-promo/static/js/runtime-main.4eedb0f3.js",
     "runtime-main.js.map": "/emi-promo/static/js/runtime-main.4eedb0f3.js.map",
-    "static/js/2.65785294.chunk.js": "/emi-promo/static/js/2.65785294.chunk.js",
-    "static/js/2.65785294.chunk.js.map": "/emi-promo/static/js/2.65785294.chunk.js.map",
+    "static/js/2.2918b506.chunk.js": "/emi-promo/static/js/2.2918b506.chunk.js",
+    "static/js/2.2918b506.chunk.js.map": "/emi-promo/static/js/2.2918b506.chunk.js.map",
     "index.html": "/emi-promo/index.html",
     "static/css/main.0a8ef282.chunk.css.map": "/emi-promo/static/css/main.0a8ef282.chunk.css.map",
-    "static/js/2.65785294.chunk.js.LICENSE.txt": "/emi-promo/static/js/2.65785294.chunk.js.LICENSE.txt",
+    "static/js/2.2918b506.chunk.js.LICENSE.txt": "/emi-promo/static/js/2.2918b506.chunk.js.LICENSE.txt",
     "static/media/main_final.scss": "/emi-promo/static/media/Statuta_FALSE_s.2476d199.png",
     "static/media/main_question.scss": "/emi-promo/static/media/Dzieci_m.32774be5.png",
     "static/media/main_home.scss": "/emi-promo/static/media/Flora_s.2c0c0ec0.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4eedb0f3.js",
-    "static/js/2.65785294.chunk.js",
+    "static/js/2.2918b506.chunk.js",
     "static/css/main.0a8ef282.chunk.css",
-    "static/js/main.36e513a8.chunk.js"
+    "static/js/main.9f18458a.chunk.js"
   ]
 }
