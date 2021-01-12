@@ -16,11 +16,11 @@ function App() {
   
   let startSnow;
   if (window.innerWidth > 1100) {
-    startSnow = 620;
+    startSnow = 500;
   } else if (window.innerWidth > 750) {
-    startSnow = 420;
+    startSnow = 300;
   } else {
-    startSnow = 60;
+    startSnow = 30;
   }
   const [snowflake, setSnowflake] = useState(startSnow);
 

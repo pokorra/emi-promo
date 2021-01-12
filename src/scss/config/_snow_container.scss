@@ -1,6 +1,7 @@
 @import '../config/basic_settings';
 
 .snow-regulator {
+  
   position: absolute;
   top: 2vh;
   right: 3vw;
@@ -18,6 +19,7 @@
   &:hover {
     transform: scale(1.05);
   }
+  display: none;
 }
 .chapter {
   .snow-regulator {
@@ -107,6 +109,9 @@
   .snow-regulator {
     right: -10vw;
   }
+  .snow-regulator:first-child {
+    width: 120px;
+  }
   .quiz {
     .snow-regulator {
       right: 3vw;
@@ -127,4 +132,8 @@
       opacity: 1;
     }
   }
+}
+
+.simpleRange {
+  width: 60px;
 }

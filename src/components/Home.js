@@ -18,9 +18,10 @@ const Home = ({snowflake, setSnowflake}) => {
            
             <section className='main-content'>
                <Snow snowflake={snowflake} setSnowflake={setSnowflake}/>
+               <h1 className='main-h'>Emi i Tajny Klub Superdziewczyn - Dookoła świata - Nowy Jork</h1>
                 <img src={wilga} alt='logo' className='wilga-logo'></img>
                 <img src={emi} alt='book-title' className='book-title'></img>
-
+                <h2 className='author-name'>Książka Agnieszki Mielech</h2>
                 <p className='text premiere'>{start.date}</p>
                 <p className='text'>{start.inv}</p>
                 <Link to='/quiz'> <button className='buttons '> {start.btn} </button> </Link>

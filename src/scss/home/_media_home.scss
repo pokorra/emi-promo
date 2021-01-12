@@ -1,70 +1,79 @@
-@media only screen and (min-width: 750px ) {
+@media only screen and (min-width: 750px ) and (orientation: portrait) {
     .main-content {
         width: 100vw;
         max-height: 100vh;
-        background-image: url(../img/Dzieci_m.png);
+        background-image: url(../img/Dzieci_TRUE_m.png);
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: contain;
     }
-    .main-content::after,
-    .main-content::before {
-        top: 7vh;
-        height: 375px;
-    }
-    .main-content::after {
-        background-image: url(../img/Emi_m.png);
-        right: 4vw;
-    }
-    .main-content::before {
-        background-image: url(../img/Flora_m.png);
-        left: 4vw;
-    }
+
     .wilga-logo {
-        margin-top: 5vh;
+        top: 3vh;
+        left: 4vw;
         max-width: 100px;
     }
     .book-title {
-        height: 25vh;
+        height: 22vh;
+    }
+    .author-name {
+        font-size: 2.3vh;
     }
     .text {
         width: 60vw;
     }
     .main-content a {
         margin-top: 2vh;
-        margin-bottom: 23vh;
-        border-radius: 30px;
+        margin-bottom: 35vh;
+        
     }
     .buttons {
         font-size: 2.3vh;
-        border-radius: inherit;
+        border-radius: 30px;
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 700px) and (orientation: landscape) {
    .main-content {
-        width: 70vw;
+        width: 75vw;
         max-width: 1100px;
-        background-image: none;
+        height: 100vh;
+        max-height: 100vh;
+        background-image: url(../img/Dzieci_TRUE_l.png);
         position: relative;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
    }
 
-   .main-content::after {
-    right: -3vw;
-   }
-   .main-content::before {
-    left: -3vw;
-   }
+//    .main-content::after {
+//     right: -3vw;
+//     display: none;
+//    }
+//    .main-content::before {
+//     left: -3vw;
+//     display: none;
+//    }
    .wilga-logo {
-        width: 100px;
-        margin-top: 3vh;
+       position: absolute;
+       top: 3vh;
+       left: 0;
+        width: 10vw;
+        max-width: 100px;
    }
-
+   .author-name {
+    font-size: calc(6px + 1.5vh);
+    }
    .text {
     width: 30vw;
+    font-size: calc(6px + 1.5vh);
+    line-height: calc(8px + 1.5vh);
    }
    .main-content a {
-    margin-bottom: 10vh;
+    margin-bottom: 17vh;
+   }
+   .buttons {
+       font-size: calc(7px + 1.5vh);
    }
 
 }
