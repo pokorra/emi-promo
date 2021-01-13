@@ -46,7 +46,7 @@
     100% { opacity: 1;}
 }
 
-@media only screen and (min-width: 750px ) {
+@media only screen and (min-width: 750px ) and (orientation: portrait) {
     .done::after {
         background-size: cover;
         height: 30vh;
@@ -61,7 +61,7 @@
         }
     }
 }
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 700px) and (orientation: landscape) {
     .done::after {
         background-image: url(../img/Dzieci_l.png);
         width: 805px;

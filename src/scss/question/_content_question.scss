@@ -1,7 +1,8 @@
 .quiz-container {
-    background-color: $background-blue;
+    // background-color: $background-blue;
     width: 100vw;
     height: 100vh;
+    position: relative;
     z-index: 3;
 }
 
@@ -26,9 +27,23 @@
         font-weight: bold;
     }
 }
+
+.quiz-instruction {
+    position: absolute;
+    top: 10vh;
+    right: 3vw;
+    width: 70vw;
+    font-size: 3vh;
+    line-height: 3.8vh;
+    font-weight: 500;
+    text-transform: uppercase;
+    span {
+        color: $side-pink;
+    }
+}
 .quiz-question {
     min-height: 18vh;
-    font-size: 3vh;
+    font-size: 2.8vh;
     line-height: 4vh;
     font-weight: 500;
     display: flex;
@@ -38,8 +53,8 @@
     z-index: 3;
 }
 
-ul.quiz-buttons {
-    padding: 5vh 0 8vh;
+.quiz-buttons {
+    padding: 5vh 0 10vh;
     color: $black;
     li {
         padding: 5px;
@@ -54,15 +69,43 @@ ul.quiz-buttons {
     margin: 5px 0;
     padding: 5px 15px;
     border-radius: 25px;
-    transition: .5s;
-    opacity: 0;
-    animation: newbutt .7s ease-in forwards;
+    // transition: .5s;
+    // opacity: 0;
+    // animation: newbutt .7s ease-in forwards;
     cursor: pointer;
     font-family: $font;
     font-size: 2.3vh;
     line-height: 2.8vh;
     position: relative;
     z-index: 3;
+}
+.good-answer {
+    background-color: $side-pink;;
+}
+.wrong-answer {
+    color: grey;
+}
+
+.quiz-buttons[disabled] {
+    pointer-events: none;
+    opacity: .7;
+}
+.next-container {
+    // border: 1px solid grey;
+    width: 80vw;
+    position: relative;
+}
+.next-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    @include basic-btn;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.next-btn[disabled]{
+    display: none;
 }
 
 

@@ -5,8 +5,6 @@ import all from './data';
 import emi_logo_pion from '../scss/img/emi_logo_pion.svg';
 import wilga_logo from '../scss/img/wilga_logo.svg';
 import Snow from './Snow';
-
-// import mazurscy_logo from '../scss/img/mazurscy_logo.svg';
 import '../scss/final/main_final.scss';
 
 // const maz = mazurscy_logo;

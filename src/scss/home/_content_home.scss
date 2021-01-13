@@ -1,7 +1,6 @@
 .main-content {
     margin: 0 auto;
     height: 100vh;
-    // max-height: 770px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -30,7 +29,7 @@
 }
 
 .book-title {
-    height: 25vh;
+    height: 23vh;
     margin: 10px 0 0;
     position: relative;
 }
@@ -38,7 +37,7 @@
     font-size: 2.5vh;
     font-weight: 600;
     font-style: italic;
-    color: $blue-shadow;
+    color: $black;
     z-index: 5;
 }
 .premiere {
@@ -54,7 +53,7 @@
 }
 
 .main-content a {
-    margin-bottom: 23vh;
+    margin-bottom: 35vh;
     z-index: 5;
 }
 

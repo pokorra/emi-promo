@@ -17,6 +17,9 @@ $white: rgb(245, 245, 245);
     box-sizing: border-box;
     font-family: $font;    
 }
+body {
+    background-color: $background-blue;
+}
 
 button {
     font-family: $font;

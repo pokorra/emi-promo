@@ -1,4 +1,4 @@
-@media only screen and (min-width: 750px ) {
+@media only screen and (min-width: 750px ) and (orientation: portrait) {
     .chapter {
         background-image: linear-gradient(rgba(245, 245, 245, .3), rgba(245, 245, 245, .3) 35%, rgba(245, 245, 245, .8) 50%, rgba(245, 245, 245, .95));
         width: 75vw;
@@ -34,7 +34,7 @@
 }
 
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 700px) and (orientation: landscape) {
     .chapter {
         position: absolute;
         right: -5vw;
@@ -50,8 +50,25 @@
     .buy-btn span {
         font-size: 28px;
     }
+    .paragraph {
+        font-size: 1.5vw;
+        line-height: 1.9vw;
+    }
+    .paragraph:first-of-type {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+    .paragraph:nth-of-type(2) {
+        font-size: 1.8vw;
+        line-height: 2.1vw;
+    }
+    .paragraph:last-child,
+    .paragraph:nth-last-child(2),
+    .paragraph:nth-last-child(3) {
+        font-size: 1.3vw;
+        line-height: 1.6vw;
+    }
     
-
 }
 
 
