@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emi-promo/static/css/main.54b9e3ea.chunk.css",
-    "main.js": "/emi-promo/static/js/main.40ea2ee3.chunk.js",
-    "main.js.map": "/emi-promo/static/js/main.40ea2ee3.chunk.js.map",
+    "main.js": "/emi-promo/static/js/main.5b1330ca.chunk.js",
+    "main.js.map": "/emi-promo/static/js/main.5b1330ca.chunk.js.map",
     "runtime-main.js": "/emi-promo/static/js/runtime-main.4eedb0f3.js",
     "runtime-main.js.map": "/emi-promo/static/js/runtime-main.4eedb0f3.js.map",
     "static/js/2.062bc064.chunk.js": "/emi-promo/static/js/2.062bc064.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.4eedb0f3.js",
     "static/js/2.062bc064.chunk.js",
     "static/css/main.54b9e3ea.chunk.css",
-    "static/js/main.40ea2ee3.chunk.js"
+    "static/js/main.5b1330ca.chunk.js"
   ]
 }
