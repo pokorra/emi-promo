@@ -83,11 +83,11 @@ const quiz = [
                 ans: "Brzozowy lasek"}, 
                 {
                 num: "b.",
-                ans: "Na bateryjce"}, 
+                ans: "Na Bateryjce"}, 
                 {
                 num: "c.",
                 ans: "Choinkowy zagajnik"}],
-        goodOne: "Na bateryjce"
+        goodOne: "Na Bateryjce"
     },
     {
         num: 7,

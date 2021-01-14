@@ -7,7 +7,7 @@ const Done = ({isFinished}) => {
         <div className={`${isFinished ? 'done' : 'hidden'}`}>
             <div className='appear'>
                 <p> Gratulacje, udało Ci się ukończyć quiz! </p>
-                <Link to='/final'> <button className='butt'>Sprawdź swój wynik </button> </Link>
+                <Link to='/final'> <button className='butt'> Sprawdź swój wynik </button> </Link>
             </div>
         </div>
     )
