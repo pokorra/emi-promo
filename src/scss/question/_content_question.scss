@@ -54,10 +54,10 @@
 }
 
 .quiz-buttons {
-    padding: 5vh 0 10vh;
+    padding: 5vh 0 12vh;
     color: $black;
     li {
-        padding: 5px;
+        // padding: 5px;
         span {
             margin-right: 10px;
         }
@@ -67,7 +67,7 @@
 .quiz-btn {
     width: 80%;
     margin: 5px 0;
-    padding: 5px 15px;
+    padding: 10px 10px;
     border-radius: 25px;
     // transition: .5s;
     // opacity: 0;

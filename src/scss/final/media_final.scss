@@ -60,19 +60,19 @@
         transform: translateX(-50%);
     }
     .for-the-loose::after {
-        width: 465px;
-        height: 620px;
+        width: 325px;
+        height: 434px;
         background-image: url(../img/Statuta_FALSE_l.png);
         left: 10vw;
     }
     .final-score,
     .final-text {
-        width: 20vw;
-        font-size: 2.3vh;
+        width: 30vw;
+        font-size: 2.7vh;
         line-height: 3vh;
     }
     .final-btn {
-        font-size: 2.5vh;
+        font-size: 2.8vh;
     }
     .for-the-loose a {
         margin-bottom: 20vh;
@@ -86,6 +86,19 @@
     .for-the-win::after {
         width: 1040px;
         height: 530px;
+    }
+    .for-the-loose::after {
+        width: 465px;
+        height: 620px;
+    }
+    .final-score,
+    .final-text {
+        width: 20vw;
+        font-size: 2.3vh;
+        line-height: 3vh;
+    }
+    .final-btn {
+        font-size: 2.5vh;
     }
 }
 

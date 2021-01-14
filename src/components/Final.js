@@ -4,12 +4,10 @@ import {Link} from 'react-router-dom';
 import all from './data';
 import emi_logo_pion from '../scss/img/emi_logo_pion.svg';
 import wilga_logo from '../scss/img/wilga_logo.svg';
-import Snow from './Snow';
 import '../scss/final/main_final.scss';
 
-// const maz = mazurscy_logo;
 
-const Final =({score, setScore, setFinished, snowflake, setSnowflake}) => {
+const Final =({score, setScore, setFinished}) => {
     const finish = all[2];
     const wilga = wilga_logo;
     const emi = emi_logo_pion;
@@ -29,7 +27,6 @@ const Final =({score, setScore, setFinished, snowflake, setSnowflake}) => {
         <div>
             { score < 3 ? (
                 <div className='final for-the-loose'> 
-                    <Snow snowflake={snowflake} setSnowflake={setSnowflake}/>
                     <img src={wilga} alt='logo' className='final-wilga-logo'></img>
                     <img src={emi} alt='book-title' className='final-book-title'></img>
                     <p className='final-score'>Twój wynik to... {score} / 10!</p>
@@ -39,7 +36,6 @@ const Final =({score, setScore, setFinished, snowflake, setSnowflake}) => {
             ) : (
                 <div className='final for-the-win'>
                     <div className={`${isChapter ? 'hidden' : 'final'}`}>
-                        <Snow snowflake={snowflake} setSnowflake={setSnowflake}/>
                         <img src={wilga} alt='logo' className='final-wilga-logo'></img>
                         <img src={emi} alt='book-title' className='final-book-title'></img>
                         <p className='final-score'>Twój wynik to... {score} / 10!</p>
