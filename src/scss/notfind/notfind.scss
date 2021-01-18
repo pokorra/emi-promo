@@ -1,22 +1,40 @@
+@import '../config/reset';
+@import '../config/basic_settings';
+@import '../config/snow_container';
+
 .notfound {
-    background-color: $white;
     width: 100vw;
     height: 100vh;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include centerflex;
     overflow: hidden;
 }
-.notfound-txt {
-    font-size: 50px;
-    color: $black;
-}
-
-.notfound-inner {
-    width: 182px;
-    height: 384px;
+.notfound::before {
+    content: '';
+    position: absolute;
+    width: 45vh;
+    height: 45vh;
+    background-image: url(../img/Gwiazdka.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
+    z-index: -1;
+    animation: round 2.5s linear infinite;
 }
 
+.notfound-txt {
+    margin: 3vh 0;
+}
+h1.notfound-txt  {
+    font-size: 50px;
+}
+h2.notfound-txt  {
+    font-size: 30px;
+    position: relative;
+}
+
+
+@keyframes round {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);} 
+}
